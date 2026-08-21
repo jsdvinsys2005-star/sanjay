@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LOOPPSHARE</title>
+<style>
+body{font-family:Arial;background:#eee;text-align:center}
+.box{background:white;width:350px;margin:50px auto;padding:20px;border-radius:10px}
+input,textarea{width:90%;padding:10px;margin:5px}
+button{padding:10px;background:blue;color:white;border:0}
+.post{background:#eee;margin:15px;padding:10px}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<h1>LOOPPSHARE</h1>
+
+<input id="name" placeholder="Your Name">
+<textarea id="msg" placeholder="Write a post"></textarea>
+<button onclick="post()">Share</button>
+
+<div id="posts"></div>
+</div>
+
+<script>
+function post(){
+let n=document.getElementById("name").value;
+let m=document.getElementById("msg").value;
+
+if(n==""||m==""){
+alert("Enter name and post");
+return;
+}
+
+document.getElementById("posts").innerHTML+=
+"<div class='post'><b>"+n+"</b><p>"+m+
+"</p>?? follow &nbsp; ?? share</div>";
+
+document.getElementById("msg").value="";
+}
+</script>
+
+</body>
+</html>
