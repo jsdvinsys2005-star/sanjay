@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Management System</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f2f2f2;
+}
+
+header{
+    background:#174a7e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#222;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+}
+
+h2{
+    color:#174a7e;
+}
+
+.card{
+    display:inline-block;
+    background:#e8f1fa;
+    width:200px;
+    margin:10px;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    border:1px solid #aaa;
+    padding:10px;
+    text-align:center;
+}
+
+th{
+    background:#174a7e;
+    color:white;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>BHAVANS COLLEGE DAKOR</h1>
+<p>College Management System</p>
+</header>
+
+<nav>
+<a href="#student">Student Dashboard</a>
+<a href="#faculty">Faculty</a>
+<a href="#course">Courses</a>
+<a href="#result">Result</a>
+<a href="#notice">Notice</a>
+</nav>
+
+<!-- Student Dashboard -->
+<section id="student">
+<h2>🎓 Student Dashboard</h2>
+
+<div class="card">
+<h3>Student Name</h3>
+<p>SANJAY BHARVAD</p>
+</div>
+
+<div class="card">
+<h3>Student ID</h3>
+<p>2025003346</p>
+</div>
+
+<div class="card">
+<h3>Semester</h3>
+<p>Semester 5</p>
+</div>
+
+<div class="card">
+<h3>Attendance</h3>
+<p>85%</p>
+</div>
+</section>
+
+<!-- Faculty -->
+<section id="faculty">
+<h2>👨‍🏫 Faculty Section</h2>
+
+<table>
+<tr>
+<th>Name</th>
+<th>Subject</th>
+<th>LANGUAGE</th>
+</tr>
+
+<tr>
+<td>Mr. Amit Shah</td>
+<td>ECONOMICS</td>
+<td>GUJRATI</td>
+</tr>
+
+<tr>
+<td>Ms. Priya Patel</td>
+<td>GUJRATI</td>
+<td>GUJRATI</td>
+</tr>
+
+<tr>
+<td>Mr. Raj Mehta</td>
+<td>HISTORY</td>
+<td>GUJRATI</td>
+</tr>
+</table>
+</section>
+
+<!-- Courses -->
+<section id="course">
+<h2>📚 Courses</h2>
+
+<div class="card">
+<h3>BCA</h3>
+<p>Computer Application</p>
+</div>
+
+<div class="card">
+<h3>BBA</h3>
+<p>Business Administration</p>
+</div>
+
+<div class="card">
+<h3>B.Com</h3>
+<p>Commerce</p>
+</div>
+
+<div class="card">
+<h3>MCA</h3>
+<p>Computer Application</p>
+</div>
+</section>
+
+<!-- Result -->
+<section id="result">
+<h2>📊 Student Result</h2>
+
+<table>
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+<th>Grade</th>
+</tr>
+
+<tr>
+<td>HTML</td>
+<td>85</td>
+<td>A</td>
+</tr>
+
+<tr>
+<td>Java</td>
+<td>78</td>
+<td>B+</td>
+</tr>
+
+<tr>
+<td>Database</td>
+<td>88</td>
+<td>A+</td>
+</tr>
+</table>
+</section>
+
+<!-- Notice -->
+<section id="notice">
+<h2>📢 College Notices</h2>
+
+<ul>
+<li>Semester examination starts from 10 September.</li>
+<li>Assignment submission last date is 5 September.</li>
+<li>College will remain closed on Sunday.</li>
+<li>New admission forms are available now.</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 ABC College | College Management System</p>
+</footer>
+
+</body>
+</html>
